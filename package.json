@@ -1,0 +1,26 @@
+{
+  "name": "module-federation-fresh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lerna run --scope @mff/* --parallel start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "global": "^4.4.0"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": {
+    "packages": [
+      "app1",
+      "app2",
+      "app3"
+    ]
+  }
+}
